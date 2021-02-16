@@ -216,7 +216,7 @@ const pools = {
             pair: pair,
             allocPoint: Number(allocPoint),
             lastRewardBlock: Number(lastRewardBlock),
-            accSushiPerShare: accSushiPerShare / 1e18,
+            accSushiPerShare: Number(accSushiPerShare),
             userCount: Number(userCount),
             slpBalance: Number(slpBalance),
             slpAge: Number(slpAge),
