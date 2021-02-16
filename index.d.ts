@@ -8,6 +8,7 @@ import bar = require("./typings/bar");
 import maker = require("./typings/maker");
 import timelock = require("./typings/timelock");
 import lockup = require("./typings/lockup");
+import vesting = require("./typings/vesting");
 import utils = require("./typings/utils")
 
 export = SushiData;
@@ -21,5 +22,5 @@ declare namespace SushiData {
         target: Function;
     }, targetArguments?: any): Promise<any>;
 
-    export { sushi, blocks, charts, exchange, exchange_v1, masterchef, bar, maker, timelock, lockup, utils };
+    export { sushi, blocks, charts, exchange, exchange_v1, masterchef, bar, maker, timelock, lockup, vesting, utils };
 }

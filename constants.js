@@ -8,6 +8,7 @@ module.exports = {
         exchange_v1: 'https://api.thegraph.com/subgraphs/name/jiro-ono/sushiswap-v1-exchange',
         blocklytics: 'https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks',
         lockup: 'https://api.thegraph.com/subgraphs/name/matthewlilley/lockup',
+        vesting: 'https://api.thegraph.com/subgraphs/name/lufycz/sushiclaimedvesting',
     },
 
     graphWSEndpoints: {
