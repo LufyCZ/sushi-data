@@ -28,7 +28,7 @@ type Pool = {
     pair: string,
     allocPoint: number,
     lastRewardBlock: number,
-    accSushiPerShare: number,
+    accSushiPerShare: bigint,
     userCount: number,
     slpBalance: number,
     slpAge: number,
@@ -87,7 +87,7 @@ type User = {
         lastRewardBlock: number
     },
     amount: number,
-    rewardDebt: number,
+    rewardDebt: bigint,
     entryUSD: number,
     exitUSD: number,
     sushiAtLockup: number,

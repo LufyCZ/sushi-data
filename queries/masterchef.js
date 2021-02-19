@@ -216,7 +216,7 @@ const pools = {
             pair: pair,
             allocPoint: Number(allocPoint),
             lastRewardBlock: Number(lastRewardBlock),
-            accSushiPerShare: Number(accSushiPerShare),
+            accSushiPerShare: BigInt(accSushiPerShare),
             userCount: Number(userCount),
             slpBalance: Number(slpBalance),
             slpAge: Number(slpAge),
@@ -283,7 +283,7 @@ const user = {
                 lastRewardBlock: Number(entry.pool.lastRewardBlock)
             },
             amount: Number(entry.amount),
-            rewardDebt: Number(entry.rewardDebt),
+            rewardDebt: BigInt(entry.rewardDebt),
             entryUSD: Number(entry.entryUSD),
             exitUSD: Number(entry.exitUSD),
             sushiAtLockup: Number(entry.sushiAtLockup),
