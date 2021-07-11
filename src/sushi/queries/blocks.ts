@@ -25,7 +25,7 @@ export async function latestBlock({chainId = 1}: ChainId = {}) {
         }`
     );
 
-    return latestBlock_callback(result.blocks);
+    return latestBlock_callback(result.blocks[0]);
 }
 
 
